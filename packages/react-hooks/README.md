@@ -1,11 +1,19 @@
 # `@acolorbright/react-hooks`
 
-> TODO: description
+ACB's package for reausable React hooks
+
+## Installation
+
+`npm install -E @acolorbright/react-hooks`
 
 ## Usage
 
-```
-const reactHooks = require('@acolorbright/react-hooks');
+After installing import the hooks you need, for example:
 
-// TODO: DEMONSTRATE API
-```
+`import { useMediaQuery } from '@acolorbright/react-hooks`
+
+The following hooks are available:
+
+- `useMediaQuery` - Provides media query interface to JS
+- `useScrollLock` - Implements CSS class control for scroll locking
+- `useTabPanelInterface` - Adds keyboard and mouse controls for tab panel interface
