@@ -1,0 +1,6 @@
+{
+  "extends": "@acolorbright/eslint-config-ts-react",
+  "rules": {
+    "sort-keys": 0
+  }
+}
