@@ -51,7 +51,7 @@ For more info on `lerna run` check [the docs](https://github.com/lerna/lerna/tre
 
 To publish all changes run `npx lerna publish`.
 
-Packages are published using [Fixed/Locked mode](https://github.com/lerna/lerna#fixedlocked-mode-default)
+Packages are published using [Independent mode](https://github.com/lerna/lerna#independent-mode)
 
 You have to be logged into `npm` from within the terminal in order for the changes to be published to the registry.
 If this part fails you can retry publishing it by running `npx lerna publish from-package`. It will compare the package versions in `package.json` to the ones in the registry. If they don't match it will trigger the publish.
