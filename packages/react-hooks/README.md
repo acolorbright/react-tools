@@ -14,6 +14,9 @@ After installing import the hooks you need, for example:
 
 The following hooks are available:
 
+- `useAxeReact` - Implements Axe during development
+- `useKeyboardFocus` - Adds class for keyboard focus styling
 - `useMediaQuery` - Provides media query interface to JS
 - `useScrollLock` - Implements CSS class control for scroll locking
+- `useScrollPosition` - Provides window scroll coordinates
 - `useTabPanelInterface` - Adds keyboard and mouse controls for tab panel interface
