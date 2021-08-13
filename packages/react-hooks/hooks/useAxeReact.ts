@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import ReactDOM from 'react-dom'
 
-export const useAgnosticAxe = (): void => {
+export const useAxeReact = (): void => {
   useEffect(() => {
     if (process.env.NODE_ENV !== 'production') {
       // eslint-disable-next-line import/no-extraneous-dependencies

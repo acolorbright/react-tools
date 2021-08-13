@@ -1,3 +1,5 @@
+export { useAxeReact } from './hooks/useAxeReact'
+export { useKeyboardFocus } from './hooks/useKeyboardFocus'
 export { useMediaQuery } from './hooks/useMediaQuery'
 export { useScrollLock } from './hooks/useScrollLock'
 export { useTabPanelInterface } from './hooks/useTabPanelInterface'
