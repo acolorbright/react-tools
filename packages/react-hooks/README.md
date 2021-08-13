@@ -1,6 +1,6 @@
 # `@acolorbright/react-hooks`
 
-ACB's package for reausable React hooks
+ACB's package for reusable React hooks
 
 ## Installation
 
