@@ -1,7 +1,7 @@
 {
   "name": "@acolorbright/react-hooks",
   "version": "0.0.0",
-  "description": "ACB's package for reausable react hooks",
+  "description": "ACB's package for reusable React hooks",
   "keywords": [
     "react",
     "hooks"
@@ -9,14 +9,14 @@
   "author": "A Color Bright GmbH",
   "homepage": "",
   "license": "MIT",
-  "main": "lib/react-hooks.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acolorbright/react-tools.git"
   },
-  "files": [
-    "lib"
-  ],
+  "bugs": {
+    "url": "https://github.com/acolorbright/react-tools/issues"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -25,6 +25,8 @@
   },
   "devDependencies": {
     "@acolorbright/eslint-config-ts-react": "2.0.4",
+    "@axe-core/react": "4.2.2",
+    "@types/node": "16.6.0",
     "@typescript-eslint/eslint-plugin": "4.29.1",
     "@typescript-eslint/parser": "4.29.1",
     "eslint": "7.32.0",
@@ -39,6 +41,7 @@
     "typescript": "4.3.5"
   },
   "dependencies": {
-    "react": "17.0.2"
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   }
 }

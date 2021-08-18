@@ -1,6 +1,7 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "acb-react-tools",
+  "description": "ACB's monorepo of tools used with React",
+  "license": "MIT",
   "devDependencies": {
     "lerna": "4.0.0"
   }
