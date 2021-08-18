@@ -10,6 +10,7 @@
   "homepage": "",
   "license": "MIT",
   "main": "index.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/acolorbright/react-tools.git"
