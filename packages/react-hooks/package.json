@@ -1,6 +1,6 @@
 {
   "name": "@acolorbright/react-hooks",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ACB's package for reusable React hooks",
   "keywords": [
     "react",
