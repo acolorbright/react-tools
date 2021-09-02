@@ -13,8 +13,20 @@ export const useMediaQuery = (query: string): boolean => {
     const listener = () => {
       setMatches(media.matches)
     }
-    media.addEventListener('change', listener)
-    return () => media.removeEventListener('change', listener)
+
+    if (media.addEventListener) {
+      media.addEventListener('change', listener)
+    } else {
+      media.addListener(listener)
+    }
+
+    return () => {
+      if (media.removeEventListener) {
+        media.removeEventListener('change', listener)
+      } else {
+        media.removeListener(listener)
+      }
+    }
   }, [matches, query])
 
   return matches
